@@ -1,0 +1,28 @@
+@keyframes icon-move
+  0%
+    transform: translateY(0px)
+  25%
+    transform: translateY(-8px)
+  50%
+    transform: translateY(4px)
+  75%
+    transform: translateY(-4px)
+  100%
+    transform: translateY(0px)
+
+.social-icons-wrap
+  display: flex
+  justify-content: center
+  margin-top: 1.5em
+
+  .icons-link
+    display: inline-block
+    font-size: 4em
+    text-decoration: none
+    margin: 0 10px
+
+    &:hover
+      animation: icon-move 1000ms ease-in-out
+
+    svg
+      width: 0.85em

@@ -43,7 +43,7 @@ class Theme extends Component{
   render(){
     const curTheme = this.state.theme
     return(
-      <div className="theme">
+      <div className="theme" style={{position: 'relative'}}>
         <style jsx="true">
           {`
             body {

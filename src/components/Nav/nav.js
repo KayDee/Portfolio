@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import './style.css'
+import './style.sass'
 
 class Nav extends Component{
 
@@ -45,15 +45,15 @@ class Nav extends Component{
       <nav style={{'backgroundColor': this.state.isOpaque ? 'transparent' : curTheme.translucent}}>
         <button onClick={(e) => change()}>Change Theme</button>
         <div className="buttons-wrap">
-          <a href="#">About</a>
-          <a href="#">Projects</a>
+          <a href="#" className="nav-links">About</a>
+          <a href="#" className="nav-links">Projects</a>
           <style>
             {`
-              a, a:link, a:active, a:visited{
+              a.nav-links, a.nav-links:link, a.nav-links:active, a.nav-links:visited{
                 color: ${curTheme.text};
               }
-              a:hover{
-                color: ${curTheme.highlight};
+              a.nav-links:after{
+                background-color: ${curTheme.text};
               }
             `}
           </style>

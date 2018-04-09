@@ -1,14 +1,21 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import './rainStyle.sass'
+import './style.sass'
 
 class RainFall extends Component{
+
+  static contextTypes = {
+    theme: PropTypes.any
+  }
   render(){
+    let commonStyles = {
+      backgroundColor: this.context.theme.background
+    }
     return(
-      <div className="container">
-        <div className="parts one"></div>
-        <div className="parts two"></div>
-        <div className="parts three"></div>
+      <div className="container" style={{color: this.context.theme.text}}>
+        <div className="parts one" style={commonStyles}></div>
+        <div className="parts two" style={commonStyles}></div>
+        <div className="parts three" style={commonStyles}></div>
       </div>
     )
   }

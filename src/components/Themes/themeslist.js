@@ -1,7 +1,7 @@
 export const themesList = [
   {
     name: 'Red',
-    background: 'rgba(249,122,114, 1)',
+    background: 'rgba(0,0,0, 1)',
     text: 'rgba(255, 255, 255, 1)',
     highlight: 'rgba(255,134,144, 1)',
     translucent: 'rgba(255,134,144, 0.6)'
