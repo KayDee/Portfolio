@@ -1,0 +1,28 @@
+@keyframes clickMove
+  0%
+    transform: translateY(0)
+  25%
+    transform: translateY(-15px)
+  50%
+    transform: translateY(15px)
+  75%
+    transform: translateY(-5px)
+.to-next
+  position: absolute
+  bottom: 0
+  width: 100%
+  text-align: center
+  .scroll-icon
+    display: inline-flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    animation: clickMove 1s ease-in-out infinite
+
+    &:hover
+      cursor: pointer
+
+    span
+      font-size: 10px
+    svg
+      width: 1em

@@ -8,7 +8,7 @@ class Nav extends Component{
     super(props)
     this.scrollEvent = this.scrollEvent
     this.state = {
-      isOpaque: true
+      isTranslucent: true
     }
   }
 
@@ -25,24 +25,26 @@ class Nav extends Component{
   }
 
   scrollEvent = () => {
-    if(window.pageYOffset > this.offsetTop){
+    if(window.pageYOffset > 0){
       this.setState({
-        isOpaque: false
+        isTranslucent: true
       })
     }
     else{
       this.setState({
-        isOpaque: true
+        isTranslucent: false
       })
+      console.log('Scrolled')
     }
   }
 
   render(){
     let curTheme = this.context.theme
     let change = this.context.changeTheme
+    let color = this.state.isTranslucent ? curTheme.translucent : 'transparent'
     // console.log(this.context)
     return(
-      <nav style={{'backgroundColor': this.state.isOpaque ? 'transparent' : curTheme.translucent}}>
+      <nav style={{'backgroundColor': color}}>
         <button onClick={(e) => change()}>Change Theme</button>
         <div className="buttons-wrap">
           <a href="#" className="nav-links">About</a>

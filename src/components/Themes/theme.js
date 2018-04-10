@@ -1,8 +1,9 @@
 import React, { Component } from 'react'
-import Landing from '../../sections/Landing/landing'
+import Landing from '_sections/Landing/landing'
 import { themesList } from './themeslist'
 import PropTypes from 'prop-types'
-import RainFall from '../RainFall/rain'
+import RainFall from '_components/RainFall/rain'
+import About from '_sections/About/about'
 
 
 class Theme extends Component{
@@ -56,6 +57,7 @@ class Theme extends Component{
         </style>
         <RainFall />
         <Landing />
+        <About />
       </div>
     )
   }
