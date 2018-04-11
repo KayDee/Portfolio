@@ -4,6 +4,7 @@ import { themesList } from './themeslist'
 import PropTypes from 'prop-types'
 import RainFall from '_components/RainFall/rain'
 import About from '_sections/About/about'
+import Projects from '_sections/Projects/projects'
 
 
 class Theme extends Component{
@@ -58,6 +59,7 @@ class Theme extends Component{
         <RainFall />
         <Landing />
         <About />
+        <Projects />
       </div>
     )
   }

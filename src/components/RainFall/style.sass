@@ -12,7 +12,7 @@
 
 @keyframes falling
   from
-    transform: translateY(-150vh)
+    transform: translateY(-350vh)
   to
     transform: translateY(0)
 
@@ -24,15 +24,15 @@
   box-shadow: unquote($val)
 
 
-$high: 500
-$mid: 200
-$low: 100
+$high: 600
+$mid: 400
+$low: 200
 
 $vw: 2000
 
-$fast: 120s
-$faster: 90s
-$fastest: 50s
+$fast: 200s
+$faster: 150s
+$fastest: 100s
 
 
 
@@ -51,7 +51,7 @@ $fastest: 50s
     &:after
       content: " "
       position: absolute
-      top: 1000px
+      top: 2000px
       border-radius: 50%
       font-size: 40px
     &.one, &.one:after

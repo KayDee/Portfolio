@@ -20,7 +20,8 @@ class About extends Component{
           <h3>I like <mark style={highlightStyle}>JavaScript</mark> and everything that comes from it</h3>
           <h4>
             I usually make pens and sites with CSS, but this time i chose <mark style={highlightStyle}>react.js</mark>
-            <br />
+          </h4>
+          <h4>
             This site is a result of <mark style={highlightStyle}>a</mark> good idea, <mark style={highlightStyle}>some</mark> awesome songs and <mark style={highlightStyle}>a lot</mark> of hours googling
           </h4>
           <h4>
