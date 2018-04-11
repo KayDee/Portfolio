@@ -12,7 +12,7 @@
 
 @keyframes falling
   from
-    transform: translateY(-350vh)
+    transform: translateY(-150vh)
   to
     transform: translateY(0)
 
@@ -30,16 +30,17 @@ $low: 200
 
 $vw: 2000
 
-$fast: 200s
-$faster: 150s
-$fastest: 100s
+$fast: 100s
+$faster: 80s
+$fastest: 50s
 
 
 
 .container
-  position: absolute
+  position: fixed
   height: 100%
   width: 100%
+  z-index: 0
 
   .parts
     border-radius: 50%
@@ -51,7 +52,7 @@ $fastest: 100s
     &:after
       content: " "
       position: absolute
-      top: 2000px
+      top: 1000px
       border-radius: 50%
       font-size: 40px
     &.one, &.one:after
