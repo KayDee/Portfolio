@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import { executeScroll } from '_includes/js/scroll.js'
 import './style.sass'
 
 class Nav extends Component{
@@ -47,8 +48,8 @@ class Nav extends Component{
       <nav style={{'backgroundColor': color}}>
         <button onClick={(e) => change()}>Change Theme</button>
         <div className="buttons-wrap">
-          <a href="#" className="nav-links">About</a>
-          <a href="#" className="nav-links">Projects</a>
+          <a className="nav-links" onClick={(e) => executeScroll(document.querySelector('.about-page'))}>About</a>
+          <a className="nav-links" onClick={(e) => executeScroll(document.querySelector('.projects-page'))}>Projects</a>
           <style>
             {`
               a.nav-links, a.nav-links:link, a.nav-links:active, a.nav-links:visited{
