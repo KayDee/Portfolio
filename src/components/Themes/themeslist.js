@@ -20,6 +20,7 @@ export const themesList = [
   {
     name: 'Purple',
     background: 'rgba(244, 235, 225, 1)',
+    backgroundHex: '#F4EBE1',
     text: 'rgba(81,78,174, 1)',
     highlight: 'rgba(185,184,222, 0.7)',
     translucent: 'rgba(244, 235, 225, 0.6)',
@@ -29,6 +30,7 @@ export const themesList = [
   {
     name: 'Red',
     background: 'rgba(244, 235, 225, 1)',
+    backgroundHex: '#F4EBE1',
     text: 'rgba(222,102,102, 1)',
     highlight: 'rgba(232,150,150, 0.7)',
     translucent: 'rgba(244, 235, 225, 0.6)',
@@ -38,6 +40,7 @@ export const themesList = [
   {
     name: 'Green',
     background: 'rgba(243,238,213, 1)',
+    backgroundHex: '#F3EED5',
     text: 'rgba(64,163,121, 1)',
     highlight: 'rgba(178,218,201, 0.7)',
     translucent: 'rgba(243,238,213, 0.6)',
@@ -47,6 +50,7 @@ export const themesList = [
   {
     name: 'Yellow',
     background: 'rgba(254,255,96, 1)',
+    backgroundHex: '#FEFF60',
     text: 'rgba(0, 0, 0, 1)',
     highlight: 'rgba(200,201,12, 0.7)',
     translucent: 'rgba(254,255,96, 0.6)',
@@ -56,6 +60,7 @@ export const themesList = [
   {
     name: 'Orange',
     background: 'rgba(244, 235, 225, 1)',
+    backgroundHex: '#F4EBE1',
     text: 'rgba(230,108,36, 1)',
     highlight: 'rgba(242,181,145, 0.7)',
     translucent: 'rgba(244, 235, 225, 0.6)',
@@ -65,6 +70,7 @@ export const themesList = [
   {
     name: 'RedInverse',
     background: 'rgba(210,45,45, 1)',
+    backgroundHex: '#D22D2D',
     text: 'rgba(244, 235, 225, 1)',
     highlight: 'rgba(232,150,150, 0.7)',
     translucent: 'rgba(210,45,45, 0.6)',

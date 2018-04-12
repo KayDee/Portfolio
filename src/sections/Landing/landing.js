@@ -13,6 +13,9 @@ class Landing extends Component{
     const STYLES = {color: this.context.theme.text}
     return(
       <div className="landing-page">
+        <meta name="theme-color" content={this.context.theme.backgroundHex} />
+        <meta name="msapplication-navbutton-color" content={this.context.theme.backgroundHex} />
+        <meta name="apple-mobile-web-app-status-bar-style" content={this.context.theme.backgroundHex} />
         <Nav />
         <div className="about">
           <h1 style={STYLES}>Hello, I am Kay</h1>
