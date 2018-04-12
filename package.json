@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://kayd33.github.io/porfolio",
+  "homepage": "https://kayd33.github.io/Portfolio",
   "private": true,
   "dependencies": {
     "autoprefixer": "7.1.6",

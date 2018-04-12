@@ -15,7 +15,7 @@ class Landing extends Component{
       <div className="landing-page">
         <Nav />
         <div className="about">
-          <h1 style={STYLES}>Hello, I am Baymax</h1>
+          <h1 style={STYLES}>Hello, I am Kay</h1>
           <h2 style={STYLES}>Stupid | Code Kiddie | TV Series Lover</h2>
           <SocialIcons />
         </div>
