@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import './style.sass'
-import ScrollToNext from '_components/ScrollToNext/scrolltonext'
+// import ScrollToNext from '_components/ScrollToNext/scrolltonext'
 import DisplayProjects from '_components/DisplayProjects/displayprojects'
 
 class Projects extends Component{

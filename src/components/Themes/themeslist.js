@@ -29,7 +29,7 @@ export const themesList = [
   {
     name: 'Red',
     background: 'rgba(244, 235, 225, 1)',
-    text: 'rgba(210,45,45, 1)',
+    text: 'rgba(222,102,102, 1)',
     highlight: 'rgba(232,150,150, 0.7)',
     translucent: 'rgba(244, 235, 225, 0.6)',
     shadowDark: 'rgba(0,0,0,0.7)',

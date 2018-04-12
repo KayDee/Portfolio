@@ -50,6 +50,14 @@ class DisplayProjects extends Component{
               a:after{
                 background-color: ${this.context.theme.background};
               }
+              @media screen and (max-width: 780px){
+                .proj{
+                  box-shadow: none;
+                }
+                .proj:hover{
+                  box-shadow: none;
+                }
+              }
             `}
           </style>
       </div>

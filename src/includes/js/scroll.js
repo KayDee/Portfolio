@@ -4,7 +4,6 @@ let smoothScrolling = document.documentElement.style.hasOwnProperty('scrollBehav
 
 
 export const executeScroll = (selector) => {
-  console.log(smoothScrolling)
   if(selector){
     if(smoothScrolling){
       selector.scrollIntoView({
