@@ -24,5 +24,11 @@ export const PROJECTS = [
     desc: 'An app displaying your spotify playlists',
     icons: [ICONS.re, ICONS.js],
     link: 'https://github.com/kayd33/playlist-app'
+  },
+  {
+    name: 'Text to Emoji',
+    desc: 'An app to convert your text to emojis',
+    icons: [ICONS.js],
+    link: 'https://github.com/kayd33/TextToEmoji'
   }
 ]
