@@ -23,7 +23,7 @@ export const PROJECTS = [
   {
     name: 'Playlists App',
     desc: 'An app displaying your spotify playlists',
-    icons: [ICONS.re, ICONS.js],
+    icons: [ICONS.react, ICONS.js],
     link: 'https://github.com/KayDee/playlist-app'
   },
   {
@@ -31,5 +31,11 @@ export const PROJECTS = [
     desc: 'An app to convert your text to emojis',
     icons: [ICONS.js],
     link: 'https://github.com/KayDee/TextToEmoji'
+  },
+  {
+    name: 'Portfolio API',
+    desc: 'An API about mysel',
+    icons: [ICONS.react, ICONS.graphql],
+    link: 'https://github.com/KayDee/graphql-personal'
   }
 ]
