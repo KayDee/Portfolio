@@ -12,24 +12,24 @@ export const PROJECTS = [
     name: 'Game Of Life',
     desc: 'A game of life implementation',
     icons: [ICONS.js],
-    link: 'https://github.com/kayd33/Game-of-Life'
+    link: 'https://github.com/KayDee/Game-of-Life'
   },
   {
     name: 'CYK',
     desc: 'An implementation of CYK for grammers',
     icons: [ICONS.java],
-    link: 'https://github.com/kayd33/CYK-implementation-JAVA'
+    link: 'https://github.com/KayDee/CYK-implementation-JAVA'
   },
   {
     name: 'Playlists App',
     desc: 'An app displaying your spotify playlists',
     icons: [ICONS.re, ICONS.js],
-    link: 'https://github.com/kayd33/playlist-app'
+    link: 'https://github.com/KayDee/playlist-app'
   },
   {
     name: 'Text to Emoji',
     desc: 'An app to convert your text to emojis',
     icons: [ICONS.js],
-    link: 'https://github.com/kayd33/TextToEmoji'
+    link: 'https://github.com/KayDee/TextToEmoji'
   }
 ]
