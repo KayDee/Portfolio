@@ -39,5 +39,9 @@ export const PROJECTS = [
     link: 'https://github.com/KayDee/graphql-personal'
   },
   {
+    name: 'Colorful Contri',
+    desc: 'A chrome extension to colorify GitHub contributions',
+    icons: [ICONS.js],
+    link: 'https://github.com/KayDee/colorful-contri'
   }
 ]
