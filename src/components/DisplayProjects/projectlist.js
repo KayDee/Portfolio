@@ -34,7 +34,7 @@ export const PROJECTS = [
   },
   {
     name: 'Portfolio API',
-    desc: 'An API about mysel',
+    desc: 'An API about myself',
     icons: [ICONS.react, ICONS.graphql],
     link: 'https://github.com/KayDee/graphql-personal'
   },
